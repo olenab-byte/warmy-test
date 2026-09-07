@@ -1,0 +1,20 @@
+# Normalize line endings: LF in the repository, regardless of the OS committing.
+* text=auto eol=lf
+
+# Text formats — explicit so a Windows checkout never rewrites them to CRLF.
+*.html  text eol=lf
+*.md    text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+
+# Binaries — never touch.
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.webp  binary
+*.woff  binary
+*.woff2 binary
+*.zip   binary
+*.pdf   binary
